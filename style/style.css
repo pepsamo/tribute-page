@@ -1,0 +1,110 @@
+#cit {
+    font-style: italic;
+}
+/* Colors */
+#main {
+    background-color: #eeeeee;
+    color: #333;
+    font-family:
+    -apple-system, 
+    BlinkMacSystemFont, 
+    "Segoe UI", 
+    Roboto, 
+    Oxygen-Sans, 
+    Ubuntu, 
+    Cantarell, 
+    "Helvetica Neue", 
+    sans-serif;
+}
+#history li {
+    list-style-type: disc;
+}
+#img-div figure {
+    background: #fff;
+}
+/*Font size*/
+html {
+    font-size: 11px;
+}
+#title h1 {
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+#title p,
+#img-caption,
+#history,
+#cit {
+    font-size: 1.5rem;
+}
+#info-title,
+#more {
+    font-size: 2rem;
+}
+#title h1,
+#info-title,
+footer#more,
+#history li strong {
+    font-weight: bold;
+}
+/* Sizes */
+#main {
+    width: 95%;
+    margin: 16px auto;
+    border-radius: 5px;
+    padding: 24px;
+}
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;    
+}
+#tribute-info{
+    width: 80%;
+    margin: auto;
+}
+/* Align items */
+#title h1, 
+#title p, 
+#img-caption, 
+#info-title, 
+footer#more {
+    text-align: center;
+}
+#title  {
+    margin: 16px 0;
+}
+#main p {
+    margin: 24px 0;
+}
+#img-caption {
+    margin: 8px 0;
+    padding: 16px;
+}
+#info-title{
+    margin: 32px 0;
+}
+#cit {
+    width: 50%;
+    margin: 48px auto;
+}
+/* Line height */
+#img-caption,
+#history,
+#cit blockquote {
+    line-height: 24px;
+}
+#history {
+    width: 50%;
+    margin: auto;
+}
+#history li {
+    margin: 16px auto;
+    line-height: 32px;
+}
+#cit cite {
+    line-height: 3em;
+}
+#id-more {
+    margin: 24px 0;
+}
