@@ -3,8 +3,10 @@
 }
 /* Colors */
 #main {
-    background-color: #eeeeee;
-    color: #333;
+    background: linear-gradient(to right,
+     rgba(155, 89, 182,1.0),
+     rgba(246, 253, 118,1.0));
+    color: #000;
     font-family:
     -apple-system, 
     BlinkMacSystemFont, 
