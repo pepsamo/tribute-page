@@ -25,7 +25,7 @@ a:any-link{
     list-style-type: disc;
 }
 #img-div figure {
-    background: #fff;
+    background-color: rgb(97, 64, 81);
 }
 /*Font size*/
 html {
@@ -33,7 +33,6 @@ html {
 }
 #title h1 {
     font-size: 4rem;
-    text-transform: capitalize;
 }
 #title p,
 #img-caption,
