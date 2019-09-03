@@ -1,12 +1,15 @@
+a:any-link{
+    text-decoration: none;
+}
 #cit {
     font-style: italic;
 }
 /* Colors */
 #main {
     background: linear-gradient(to bottom,
-     rgba(155, 89, 182,1.0),
+    rgba(142, 68, 173,1.0),
      rgba(46, 204, 113,1.0));
-    color: #000;
+    color: #fff;
     font-family:
     -apple-system, 
     BlinkMacSystemFont, 
