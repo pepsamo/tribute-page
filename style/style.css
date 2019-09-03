@@ -25,7 +25,8 @@ a:any-link{
     list-style-type: disc;
 }
 #img-div figure {
-    background-color: rgb(97, 64, 81);
+    background-color: rgba(46, 204, 113,1.0);
+    padding-top: 48px;
 }
 /*Font size*/
 html {
