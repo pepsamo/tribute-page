@@ -1,3 +1,8 @@
+@import url("font.css");
+
+.center-element{
+    margin: 0 auto;
+}
 a:any-link{
     text-decoration: none;
 }
@@ -28,7 +33,8 @@ a:hover{
     list-style-type: disc;
 }
 #img-div figure {
-    background-color: rgba(46, 204, 113,1.0);
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.3);
     padding-top: 48px;
 }
 /*Font size*/
@@ -64,8 +70,7 @@ h2#more,
 #image {
     max-width: 100%;
     height: auto;
-    display: block;
-    margin: 0 auto;    
+    display: block;    
 }
 #tribute-info{
     width: 80%;
@@ -73,8 +78,7 @@ h2#more,
 }
 /* Align items */
 #title h1, 
-#title h2, 
-#img-caption, 
+#title h2,  
 #info-title, 
 h2#more {
     text-align: center;
@@ -86,7 +90,7 @@ h2#more {
     margin: 24px 0;
 }
 #img-caption {
-    margin: 8px 0;
+    width: 80%;
     padding: 16px;
 }
 #info-title{
