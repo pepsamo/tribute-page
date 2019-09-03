@@ -1,65 +1,77 @@
 @import url("font.css");
 
-.center-element{
+.center-element {
     margin: 0 auto;
 }
-a:any-link{
+
+a:any-link {
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
+
 #cit {
     font-style: italic;
 }
+
 /* Colors */
 #main {
     background: linear-gradient(to bottom,
-    rgba(142, 68, 173,1.0),
-     rgba(46, 204, 113,1.0));
+            rgba(142, 68, 173, 1.0),
+            rgba(46, 204, 113, 1.0));
     color: #fff;
     font-family:
-    -apple-system, 
-    BlinkMacSystemFont, 
-    "Segoe UI", 
-    Roboto, 
-    Oxygen-Sans, 
-    Ubuntu, 
-    Cantarell, 
-    "Helvetica Neue", 
-    sans-serif;
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen-Sans,
+        Ubuntu,
+        Cantarell,
+        "Helvetica Neue",
+        sans-serif;
 }
+
 #history li {
     list-style-type: disc;
 }
+
 #img-div figure {
     background-color: #fff;
     color: rgba(0, 0, 0, 0.3);
     padding-top: 48px;
 }
+
 /*Font size*/
 html {
     font-size: 11px;
 }
+
 #title h1 {
     font-size: 4rem;
 }
+
 #title h2,
 #img-caption,
 #history,
 #cit {
     font-size: 1.5rem;
 }
+
 #info-title,
 #more {
     font-size: 2rem;
 }
+
 #title h1,
 #info-title,
 h2#more,
 #history li strong {
     font-weight: bold;
 }
+
 /* Sizes */
 #main {
     width: 95%;
@@ -67,56 +79,69 @@ h2#more,
     border-radius: 5px;
     padding: 24px;
 }
+
 #image {
     max-width: 100%;
     height: auto;
-    display: block;    
+    display: block;
 }
-#tribute-info{
+
+#tribute-info {
     width: 80%;
     margin: auto;
 }
+
 /* Align items */
-#title h1, 
-#title h2,  
-#info-title, 
+#title h1,
+#title h2,
+#info-title,
 h2#more {
     text-align: center;
 }
-#title  {
+
+#title {
     margin: 16px 0;
 }
+
 #main h2 {
     margin: 24px 0;
 }
+
 #img-caption {
     width: 80%;
     padding: 16px;
 }
-#info-title{
+
+#info-title {
     margin: 32px 0;
 }
+
 #cit {
     width: 50%;
     margin: 48px auto;
 }
+
 /* Line height */
 #img-caption,
 #history,
 #cit blockquote {
     line-height: 24px;
 }
+
 #history {
     width: 50%;
     margin: auto;
 }
+
 #history li {
     margin: 16px auto;
     line-height: 32px;
 }
+
 #cit cite {
     line-height: 3em;
 }
+
 #more {
     margin: 24px 0;
 }
