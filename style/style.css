@@ -1,6 +1,9 @@
 a:any-link{
     text-decoration: none;
 }
+a:hover{
+    text-decoration: underline;
+}
 #cit {
     font-style: italic;
 }
@@ -35,7 +38,7 @@ html {
 #title h1 {
     font-size: 4rem;
 }
-#title p,
+#title h2,
 #img-caption,
 #history,
 #cit {
@@ -47,7 +50,7 @@ html {
 }
 #title h1,
 #info-title,
-footer#more,
+h2#more,
 #history li strong {
     font-weight: bold;
 }
@@ -70,16 +73,16 @@ footer#more,
 }
 /* Align items */
 #title h1, 
-#title p, 
+#title h2, 
 #img-caption, 
 #info-title, 
-footer#more {
+h2#more {
     text-align: center;
 }
 #title  {
     margin: 16px 0;
 }
-#main p {
+#main h2 {
     margin: 24px 0;
 }
 #img-caption {
@@ -110,6 +113,6 @@ footer#more {
 #cit cite {
     line-height: 3em;
 }
-#id-more {
+#more {
     margin: 24px 0;
 }
